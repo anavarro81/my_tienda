@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    
+}
+
+
+body {
+    background: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.header-wrapper {
+    display: flex;    
+    justify-content: space-between;
+    padding-left:  10px;
+    padding-right: 20px;
+
+}
+
+.shop-logo {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+/* Buscador */
+.fg--search {
+    background: white;
+    position: relative;
+    width: 300px;
+    display: flex;
+} 
+
+.fg--search input {
+    width: 100%;
+    padding-left: 20px;
+    display: block;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+  }
+
+.fg--search button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 0;    
+    left: 0;
+    padding: 18px 0px;
+    z-index: 99;
+}
+
+#iconos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+
+
+.header-icons {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;    
+
+}
+
+.header-icons a{ 
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	/* background-color: rgba(255,255,255,0.2); */
+     background-color: blue;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: black;
+	transition: all 0.5s ease;
+}   
+
+
+.user-login button{
+    font-size: 20px;
+    display: inline-block;
+    z-index: 99; 
+}
+
+input {
+    width: 100%;
+    padding: 20px 60px 20px 20px;
+    /* display: block; */
+  }
+
+  /* menu flotante */
+.nav-wrapp {
+    position: fixed;
+    top: 30px;
+    left: 10px;
+}
+
+/* Galeria */
+
+.galery-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 10px; */
+    
+}
+   
+.galery-photo {
+       text-align: center;
+       
+}
+
+/* Discount */
+
+.discount-wrap {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.discount-wrap input {
+    width: 50%;
+    border:none;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+}
+
+/* Contacto */
+
+.contact-wrap {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* footer */
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.footer-wrap ul {
+    list-style: none;
+}
+
+.footer-wrap .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	/* background-color: rgba(255,255,255,0.2); */
+     background-color: blue;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: black;
+	transition: all 0.5s ease;
+}        
+
+
+
+
+.footer-wrap h4 {
+    font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+/* Second Footer */
+
+.footer-second {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;    
+}
+
+/* utilidades */
+
+.text-30 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text-20 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.flex-sp-around {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;    
+
+}
+
+.columna{
+   display: flex;
+   flex-direction: column;
+   align-items: start; 
+}
+
+.social-media, .iconos-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* .iconos-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+} */
